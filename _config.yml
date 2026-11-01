@@ -1,0 +1,113 @@
+title: 생활노트
+tagline: 준호씨의 생활노트
+description: 김준호가 생활하며 직접 해 보고 남기는 기록. 맛집, 요리, 영어공부, 아이와 함께, 생활 팁.
+
+# 공개 주소. CNAME 파일과 짝이다. 가비아 DNS에서 life CNAME → junho85.github.io
+url: "https://life.junho85.pe.kr"
+baseurl: ""
+
+author:
+  name: 김준호
+  email: junho85@gmail.com
+
+timezone: Asia/Seoul
+lang: ko-KR
+
+# 글 목차(TOC) 전체 스위치. 테마는 이것과 글별 toc(defaults 에서 true)가 둘 다 켜져야 목차를 그린다
+toc: true
+
+github:
+  username: junho85
+
+avatar: /assets/img/avatar.jpg
+
+social:
+  name: 김준호
+  email: junho85@gmail.com
+  links:
+    - https://github.com/junho85
+
+theme: jekyll-theme-chirpy
+
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: highlight
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+plugins:
+  - jekyll-archives
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# 글 주소. 카테고리(한글)가 URL에 들어가지 않게 기술 블로그와 같은 형식으로 고정
+permalink: /:year/:month/:day/:title.html
+
+paginate: 10
+paginate_path: "/page:num/"
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
+
+collections:
+  tabs:
+    output: true
+    sort_by: order
+
+# 댓글 — giscus (GitHub Discussions 기반). 댓글은 이 저장소의 Discussions > General 에 쌓인다.
+#   repo_id / category_id 는 GitHub GraphQL 로 조회한 값이다
+comments:
+  provider: giscus
+  giscus:
+    repo: junho85/life-blog
+    repo_id: ""        # TODO 저장소 생성 후 GraphQL 로 조회해 채운다
+    category: General
+    category_id: ""    # TODO
+    mapping: pathname          # 글 경로로 Discussion 을 매칭
+    strict: 1                  # 경로 해시로 엄격 매칭
+    input_position: bottom
+    lang: ko
+    reactions_enabled: 1
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      comments: true
+      toc: true
+  - scope:
+      path: ""
+      type: tabs
+    values:
+      layout: page
+      permalink: /:title/
+
+compress_html:
+  ignore:
+    envs: development
+
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - docs
+  - tools
+  - scripts
+  - vendor
+  - README.md
+  - LICENSE
