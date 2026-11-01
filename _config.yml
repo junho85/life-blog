@@ -69,14 +69,14 @@ collections:
     sort_by: order
 
 # 댓글 — giscus (GitHub Discussions 기반). 댓글은 이 저장소의 Discussions > General 에 쌓인다.
-#   repo_id / category_id 는 GitHub GraphQL 로 조회한 값이다
+#   repo_id / category_id 는 GitHub GraphQL 로 조회한 값이다 (2026-11-01)
 comments:
   provider: giscus
   giscus:
     repo: junho85/life-blog
-    repo_id: ""        # TODO 저장소 생성 후 GraphQL 로 조회해 채운다
+    repo_id: R_kgDOVfClZA
     category: General
-    category_id: ""    # TODO
+    category_id: DIC_kwDOVfClZM4DKJXV
     mapping: pathname          # 글 경로로 Discussion 을 매칭
     strict: 1                  # 경로 해시로 엄격 매칭
     input_position: bottom
