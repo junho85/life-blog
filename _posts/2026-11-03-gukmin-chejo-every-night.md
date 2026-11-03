@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "자기 전 국민체조 세 번 - 뻐근하던 몸과 목이 많이 좋아졌습니다"
-date: 2026-11-03 22:00:00 +0900
+date: 2026-11-03 20:48:00 +0900
 categories: [일상, 운동]
 tags: ["국민체조", "목 건강", "역C자목", "스트레칭", "맨손체조", "홈트", "자기 전 운동"]
 image: /assets/images/2026-11-03-gukmin-chejo-thumbnail.jpg
