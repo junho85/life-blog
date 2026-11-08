@@ -12,7 +12,7 @@ image: /assets/images/2026-11-03-gukmin-chejo-thumbnail.jpg
 세 번 하는 데 15분이면 됩니다. 유튜브 영상을 틀어 놓고 따라 합니다. 따라 하는 영상은 직접 만들었습니다.
 
 <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;max-width:720px;border-radius:8px;margin:1.2rem 0;">
-  <iframe src="https://www.youtube.com/embed/lokzQ_UGkvU"
+  <iframe src="https://www.youtube.com/embed/nqn6Mknnskw"
     title="국민체조 연속 3회 따라하기"
     loading="lazy" allowfullscreen
     style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;"
@@ -78,7 +78,7 @@ image: /assets/images/2026-11-03-gukmin-chejo-thumbnail.jpg
 ![1회 운동장, 2회 잔디밭, 3회 해변에서 체조하는 3D 캐릭터 세 사람](/assets/images/2026-11-03-gukmin-chejo-stages.jpg){: w="1800" h="488" }
 _1회는 학교 운동장, 2회는 잔디밭, 3회는 해변에서 한다_
 
-- 캐릭터 세 사람이 함께 합니다. 1회는 학교 운동장, 2회는 잔디밭, 3회는 해변입니다
+- 캐릭터 다섯 사람이 함께 합니다(위 사진은 세 사람이던 처음 판입니다). 1회는 학교 운동장, 2회는 잔디밭, 3회는 해변입니다
 - 화면 오른쪽에 지금 하는 동작의 이름과 설명, 다음 동작이 나옵니다
 - 동작마다 잘 보이는 쪽으로 카메라가 돌아갑니다. 옆에서 볼 때는 왼쪽 아래에 정면 모습을 작게 띄웁니다
 - 2회에는 손과 발이 지나간 자리가 선으로 남고, 3회에는 한 사람이 뼈대 모습으로 바뀌어 관절이 어떻게 움직이는지 보입니다
@@ -101,5 +101,5 @@ _1회는 학교 운동장, 2회는 잔디밭, 3회는 해변에서 한다_
 
 ## 참고 자료 {#references}
 
-- [국민체조 연속 3회 따라하기 (유튜브)](https://youtu.be/lokzQ_UGkvU){:target="_blank" rel="noopener"}
+- [국민체조 연속 3회 따라하기 (유튜브)](https://youtu.be/nqn6Mknnskw){:target="_blank" rel="noopener"}
 - [오랜만에 도수치료와 체외충격파 치료 (준호씨의 웹로그)](https://talk.junho85.pe.kr/133){:target="_blank" rel="noopener"}
